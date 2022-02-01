@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { FaBootstrap, FaHtml5 } from 'react-icons/fa';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './style.scss';
 
@@ -13,7 +14,7 @@ const App = () => {
                 <div className="col-md-12">
                     <h1>Project with React and Webpack</h1>
                     <div className="alert alert-danger" role="alert">
-                        esto es bootstrap
+                        <FaBootstrap /> esto es bootstrap <FaHtml5 />
                     </div>
                 </div>
             </div>
